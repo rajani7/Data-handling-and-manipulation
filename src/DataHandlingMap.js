@@ -28,5 +28,5 @@ export default function DataHandlingMap(props) {
   const resultThree = (a) => new Map(dataOne.filter(([key, value]) => a===key))
   console.log("Result Three------", resultThree('a'));
 
-  return <div className="data-hand-mop-container">Data Handling using Map</div>;
+  return <div className="data-hand-mop-container"></div>;
 }
